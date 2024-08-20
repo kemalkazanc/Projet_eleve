@@ -13,12 +13,12 @@ export const env = createEnv({
     GITHUB_SECRET: z.string().optional(),
     GOOGLE_ID: z.string().optional(),
     GOOGLE_SECRET: z.string().optional(),
-    RESEND_API_KEY: z.string().min(1),
-    RESEND_AUDIENCE_ID: z.string().optional(),
-    STRIPE_SECRET_KEY: z.string().min(1),
+    // RESEND_API_KEY: z.string().min(1),
+    // RESEND_AUDIENCE_ID: z.string().optional(),
+    // STRIPE_SECRET_KEY: z.string().min(1),
     NODE_ENV: z.enum(["development", "production", "test"]),
-    STRIPE_WEBHOOK_SECRET: z.string().optional(),
-    NEXTAUTH_SECRET: z.string().min(1),
+    // STRIPE_WEBHOOK_SECRET: z.string().optional(),
+    // NEXTAUTH_SECRET: z.string().min(1),
   },
   /**
    * If you add `client` environment variables, you need to add them to
